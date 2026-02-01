@@ -1,0 +1,104 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    font-display: swap;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.app {
+    width: 34.375em;
+    height: 45.5625em;
+    text-align: center;
+
+
+}
+
+header {
+    background-color: #6943FF;
+    color: white;
+    width: 34.375em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2.5em;
+
+}
+
+header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+#text-input {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 3.625rem;
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid #B295FF;
+    border-radius: 10px;
+    width: 2.1em;
+
+
+    text-align: center;
+
+}
+
+button {
+    display: block;
+    font-family: Inter;
+    padding: .8em 2em;
+    border-radius: 10px;
+
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+button:active {
+    transform: scale(.9);
+}
+
+/* MAIN */
+
+main {
+    height: 30em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+
+
+}
+
+main div {
+    width: 31.25em;
+    height: 6.785625em;
+    background-color: white;
+    border-top-left-radius: 4.68px;
+
+}
+
+main h2 {
+    font-size: 1.25rem;
+    color: #5A537B;
+    font-weight: 600;
+}
